@@ -32,7 +32,7 @@ boot || goto custom_exit
 
 :option_two
 kernel https://boot.netboot.xyz/memdisk raw iso
-initrd http://launchpad-ipxe.lan/iso/manjaro-architect-18.1.0-stable-x86_64.iso
+initrd http://192.168.2.100:8084/ubcd538.iso
 boot || goto custom_exit
 
 :aomei
